@@ -1,0 +1,16 @@
+%chk=CO2_d.chk
+%nprocshared=8
+%mem=10GB
+# b3lyp/6-31g pop=(full,nbo) geom=connectivity scf=xqc gfinput
+
+CO2_M
+
+0 1
+ C                  0.00000000    0.00000000   -0.00000100
+ O                  0.00000000    0.00000000    1.18791500
+ O                  0.00000000    0.00000000   -1.18791400
+
+ 1 2 2.0 3 2.0
+ 2
+ 3
+

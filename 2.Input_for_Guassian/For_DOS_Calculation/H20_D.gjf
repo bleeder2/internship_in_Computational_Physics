@@ -1,0 +1,16 @@
+%chk=H20_D.chk
+%mem=10GB
+%nprocshared=8
+# b3lyp/6-31g pop=(full,nbo) geom=connectivity scf=xqc gfinput
+
+H20_M
+
+0 1
+ O                  0.00000000    0.00000000    0.11435000
+ H                  0.00000000    0.79099900   -0.45740000
+ H                  0.00000000   -0.79099900   -0.45740000
+
+ 1 2 1.0 3 1.0
+ 2
+ 3
+
